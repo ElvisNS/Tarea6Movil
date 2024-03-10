@@ -1,0 +1,44 @@
+/* src/components/WeatherForecast.css */
+
+/* Estilos para el contenedor principal */
+div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el título */
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la sección de información del clima */
+  div > div {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para los detalles del clima */
+  p {
+    font-size: 18px;
+  }
+  
+  /* Estilos específicos para la temperatura */
+  p strong:first-child {
+    color: #e74c3c; /* Color rojo */
+  }
+  
+  /* Estilos específicos para el clima */
+  p strong:nth-child(2) {
+    color: #3498db; /* Color azul */
+  }
+  
+  /* Estilos específicos para la humedad */
+  p strong:nth-child(3) {
+    color: #2ecc71; /* Color verde */
+  }
+  
+  /* Estilos específicos para el viento */
+  p strong:nth-child(4) {
+    color: #e67e22; /* Color naranja */
+  }
+  

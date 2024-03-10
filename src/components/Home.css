@@ -1,0 +1,23 @@
+/* src/pages/Home.css */
+
+/* Estilos para el contenedor principal de la página Home */
+div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el título */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para la imagen de la caja de herramientas */
+  .foto-personal {
+    border-radius: 4px; /* Esquinas redondeadas */
+    padding: 5px; /* Espaciado interno */
+    max-width: 100%; /* Ancho máximo */
+    height: auto; /* Altura automática */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  

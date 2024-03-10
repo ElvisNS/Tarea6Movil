@@ -1,0 +1,63 @@
+/* src/pages/Home.css */
+
+/* Estilos generales */
+div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la entrada de nombre y botón */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  input {
+    padding: 12px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 16px 40px; /* Aumenté el tamaño del botón */
+    margin-top: 10px; /* Espacio arriba del botón */
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilos para la caja de resultado */
+  .result-box {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la caja azul */
+  .blue-box {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Estilos para la caja rosa */
+  .pink-box {
+    background-color: #e91e63;
+    color: #fff;
+  }
+  

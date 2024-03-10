@@ -1,0 +1,57 @@
+/* src/components/WordPressNews.css */
+
+/* Estilos para el contenedor principal */
+div {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el título del sitio WordPress */
+  h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  /* Estilos para el logo del sitio */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para la sección de noticias */
+  div > div {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el título de las noticias */
+  h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3498db;
+  }
+  
+  /* Estilos para el resumen de las noticias */
+  p {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  /* Estilos para el enlace "Visitar Noticia" */
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #2980b9;
+  }
+  

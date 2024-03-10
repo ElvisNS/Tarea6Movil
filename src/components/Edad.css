@@ -1,0 +1,63 @@
+/* Estilos para el contenedor principal */
+div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la etiqueta y la entrada de nombre */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  input {
+    padding: 12px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para el botón */
+  button {
+    padding: 16px 40px;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilos para la sección de resultados */
+  div > div {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el título del resultado */
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los detalles del resultado */
+  p {
+    font-size: 18px;
+  }
+  
+  /* Estilos para las imágenes de estado */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
